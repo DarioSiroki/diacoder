@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'views/home/home.dart';
+import 'views/home.dart';
 
 void main() => runApp(DiacoderApp());
 
