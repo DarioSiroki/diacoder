@@ -101,16 +101,16 @@ zeludac = {
     "instructions": "zeludac"
 }
 
-zucni_mjerhur_2 = {
+zucni_mjehur_2 = {
     "objects_to_annotate": [f"VF {x}" for x in range(1, 31)],
     "attachment_url": "https://i.imgur.com/IglrZzX.jpg",
-    "instructions": "zucni_mjerhur_2"
+    "instructions": "zucni_mjehur_2"
 }
 
-zucni_mjerhur = {
+zucni_mjehur = {
     "objects_to_annotate": [f"VF {x}" for x in range(30, 45)],
     "attachment_url": "https://i.imgur.com/qGmcng5.jpg",
-    "instructions": "zucni_mjerhur"
+    "instructions": "zucni_mjehur"
 }
 
 tasks = [bubrezi_2,
