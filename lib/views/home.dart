@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
-import '../shu_i_mu_tocke/tocke_shu_i_mu.dart';
-import "../xi_tocke/tocke_xi.dart";
-import "../izbor_tocaka/izbor_tocaka.dart";
+import './tocke_shu_i_mu.dart';
+import "./tocke_xi.dart";
+import "./izbor_tocaka/izbor_tocaka.dart";
 
 class HomePage extends StatelessWidget {
   @override
