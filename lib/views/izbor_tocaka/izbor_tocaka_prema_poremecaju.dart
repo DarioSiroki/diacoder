@@ -30,7 +30,7 @@ class _IzborTocakaPremaPoremecajuState
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Izbor točaka"),
+          title: Text("Izbor točaka prema poremećaju"),
           centerTitle: true,
           // backgroundColor: Colors.white,
         ),
@@ -59,7 +59,7 @@ class _IzborTocakaPremaPoremecajuState
                         context,
                         MaterialPageRoute(
                             builder: (context) => VizualizacijaTocaka(
-                                tilesToRender[i].name,
+                                tilesToRender[i].name.capitalize(),
                                 tilesToRender[i].points)));
                     // modal(key, tockeZaPrikaz[key]);
                   },

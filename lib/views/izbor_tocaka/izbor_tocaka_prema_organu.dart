@@ -26,7 +26,7 @@ class _IzborTocakaPremaOrganuState extends State<IzborTocakaPremaOrganu> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text("Izbor točaka"),
+          title: Text("Izbor točaka prema organu"),
           centerTitle: true,
           // backgroundColor: Colors.white,
         ),
