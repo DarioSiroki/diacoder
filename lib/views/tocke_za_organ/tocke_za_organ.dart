@@ -33,7 +33,7 @@ class TockeZaOrgan extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (contest) => VizualizacijaTocaka(
+                            builder: (context) => VizualizacijaTocaka(
                                 key.capitalize(), popis[key])));
                   },
                 );

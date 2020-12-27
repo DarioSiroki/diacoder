@@ -54,7 +54,7 @@ class _IzborTocakaState extends State<IzborTocaka> {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (contest) =>
+                            builder: (context) =>
                                 TockeZaOrgan(organName, tiles[organName])));
                     // modal(key, tockeZaPrikaz[key]);
                   },
