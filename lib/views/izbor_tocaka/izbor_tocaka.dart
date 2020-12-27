@@ -9,7 +9,17 @@ class IzborTocaka extends StatefulWidget {
 
 class _IzborTocakaState extends State<IzborTocaka> {
   String searchTerm = '';
-  var tockeZaPrikaz = tocke;
+  var tiles = meridians;
+
+  void _search(String searchTerm) {
+    setState(() {
+      tiles = {};
+      meridians.forEach((final String organName, final value) {
+        if (organName.toUpperCase().indexOf(searchTerm.toUpperCase()) > -1)
+          tiles[organName] = value;
+      });
+    });
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -22,37 +32,30 @@ class _IzborTocakaState extends State<IzborTocaka> {
         body: Container(
             child: Column(
           children: [
+            // Search box
             Padding(
               padding:
                   EdgeInsets.only(bottom: 15, left: 15, right: 15, top: 15),
               child: TextFormField(
                 decoration: InputDecoration(labelText: 'Pretraži...'),
-                onChanged: (String value) {
-                  setState(() {
-                    searchTerm = value;
-                    tockeZaPrikaz = {};
-                    tocke.forEach((final String key, final value) {
-                      if (key.toUpperCase().indexOf(searchTerm.toUpperCase()) >
-                          -1) tockeZaPrikaz[key] = value;
-                    });
-                  });
-                },
+                onChanged: _search,
               ),
             ),
+            // Tile list
             Expanded(
                 child: ListView.builder(
-              itemCount: tockeZaPrikaz.length,
+              itemCount: tiles.length,
               itemBuilder: (BuildContext context, int index) {
-                String key = tockeZaPrikaz.keys.elementAt(index);
+                String organName = tiles.keys.elementAt(index);
                 return ListTile(
-                  subtitle: Text(tockeZaPrikaz[key].keys.toString()),
-                  title: Text(key),
+                  subtitle: Text(tiles[organName].keys.toString()),
+                  title: Text(organName),
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
                             builder: (contest) =>
-                                TockeZaOrgan(key, tockeZaPrikaz[key])));
+                                TockeZaOrgan(organName, tiles[organName])));
                     // modal(key, tockeZaPrikaz[key]);
                   },
                 );

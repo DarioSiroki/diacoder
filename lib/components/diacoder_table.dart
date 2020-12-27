@@ -7,7 +7,13 @@ class DiacoderTable extends StatelessWidget {
 
   Widget _buildColumn(String text) {
     return Column(
-      children: [Text(text, style: TextStyle(height: 2, fontSize: 18))],
+      children: [
+        Wrap(children: [
+          Text(text,
+              textAlign: TextAlign.center,
+              style: TextStyle(height: 2, fontSize: 18))
+        ])
+      ],
     );
   }
 

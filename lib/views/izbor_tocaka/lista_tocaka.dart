@@ -1,4 +1,4 @@
-const tocke = {
+const meridians = {
   "Nos i sinusi": {
     "rhinitis": "#P 7, VF 20, #IC 20, #IC 4, VU 10, VU 11, VU 12, VU 13, PR 1",
     "epistaxis": "#IT 1, IT 3, TR 5, IC 3, #IC 4, VU 40, DM 14",

@@ -25,7 +25,7 @@ class HomePage extends StatelessWidget {
             ),
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (contest) => TockeShuIMu()));
+                  MaterialPageRoute(builder: (context) => TockeShuIMu()));
             },
           ),
           InkWell(
@@ -39,21 +39,33 @@ class HomePage extends StatelessWidget {
             ),
             onTap: () {
               Navigator.push(
-                  context, MaterialPageRoute(builder: (contest) => TockeXi()));
+                  context, MaterialPageRoute(builder: (context) => TockeXi()));
             },
           ),
           InkWell(
             child: Card(
               child: ListTile(
                 trailing: Icon(Icons.navigate_next),
-                title: Text("Izbor točaka"),
+                title: Text("Izbor točaka prema organima"),
                 subtitle: Text("Liječenje poremećaja organa i funkcija"),
-                // onTap: pogledaj dal ovo radi !!!!!!!!!!!!!!!!!!!!!!!,
               ),
             ),
             onTap: () {
               Navigator.push(context,
-                  MaterialPageRoute(builder: (contest) => IzborTocaka()));
+                  MaterialPageRoute(builder: (context) => IzborTocaka()));
+            },
+          ),
+          InkWell(
+            child: Card(
+              child: ListTile(
+                trailing: Icon(Icons.navigate_next),
+                title: Text("Izbor točaka prema poremećaju"),
+                subtitle: Text("Liječenje poremećaja organa i funkcija"),
+              ),
+            ),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => IzborTocaka()));
             },
           )
         ]),
