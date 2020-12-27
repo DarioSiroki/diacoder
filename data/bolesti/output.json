@@ -3,7 +3,7 @@
     "rhinitis": "#P 7, VF 20, #IC 20, #IC 4, VU 10, VU 11, VU 12, VU 13, PR 1",
     "epistaxis": "#IT 1, IT 3, TR 5, IC 3, #IC 4, VU 40, DM 14",
     "sinusitis frontalis": "#P 7, VU 2, #IC 4, P 11, PE 1, DM 23",
-    "sinusitis maxillaris": "#P 7, G 2, 14, VF 7, P 1, IC 4, IT 18"
+    "sinusitis maxillaris": "#P 7, G 2, G 14, VF 7, P 1, IC 4, IT 18"
   },
   "Ždrijelo": {
     "angina": "#IT 3, #IC 4, IC 1, P 2, P 10, C 9, G 8,G 44",
