@@ -1,3 +1,44 @@
+List<Disorder> disorderList() {
+  final List<Disorder> result = [];
+  meridians.forEach((String organName, Map<String, String> disorders) {
+    disorders.forEach((String disorderName, String points) {
+      result.add(Disorder(organName, disorderName, points));
+    });
+  });
+  return result;
+}
+
+List<Organ> disorderListByOrgans() {
+  final List<Organ> result = [];
+  meridians.forEach((String organName, Map<String, String> disorders) {
+    result.add(Organ(organName, disorders));
+  });
+  return result;
+}
+
+class Disorder {
+  /// To which organ is this disorder mainly related to
+  String organ;
+
+  /// Disorder name
+  String name;
+
+  /// Points to check for this disorder
+  String points;
+  Disorder(this.organ, this.name, this.points);
+}
+
+class Organ {
+  String name;
+  final List<Disorder> disorders = [];
+  Organ(String organName, Map<String, String> disorders) {
+    this.name = organName;
+    disorders.forEach((String disorderName, String points) {
+      this.disorders.add(Disorder(organName, disorderName, points));
+    });
+  }
+}
+
 const meridians = {
   "Nos i sinusi": {
     "rhinitis": "#P 7, VF 20, #IC 20, #IC 4, VU 10, VU 11, VU 12, VU 13, PR 1",

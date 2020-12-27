@@ -1,7 +1,8 @@
 import "package:flutter/material.dart";
 import './tocke_shu_i_mu.dart';
 import "./tocke_xi.dart";
-import "./izbor_tocaka/izbor_tocaka.dart";
+import 'izbor_tocaka/izbor_tocaka_prema_organu.dart';
+import 'izbor_tocaka/izbor_tocaka_prema_poremecaju.dart';
 
 class HomePage extends StatelessWidget {
   @override
@@ -51,8 +52,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => IzborTocaka()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => IzborTocakaPremaOrganu()));
             },
           ),
           InkWell(
@@ -64,8 +67,10 @@ class HomePage extends StatelessWidget {
               ),
             ),
             onTap: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => IzborTocaka()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => IzborTocakaPremaPoremecaju()));
             },
           )
         ]),

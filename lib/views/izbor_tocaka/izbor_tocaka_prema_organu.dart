@@ -1,17 +1,18 @@
 import "package:flutter/material.dart";
-import "lista_tocaka.dart";
-import "../tocke_za_organ/tocke_za_organ.dart";
+import 'lista_tocaka.dart';
+import '../tocke_za_organ/tocke_za_organ.dart';
 
-class IzborTocaka extends StatefulWidget {
+class IzborTocakaPremaOrganu extends StatefulWidget {
+  final String searchTerm = '';
+
   @override
-  _IzborTocakaState createState() => _IzborTocakaState();
+  _IzborTocakaPremaOrganuState createState() => _IzborTocakaPremaOrganuState();
 }
 
-class _IzborTocakaState extends State<IzborTocaka> {
-  String searchTerm = '';
+class _IzborTocakaPremaOrganuState extends State<IzborTocakaPremaOrganu> {
   var tiles = meridians;
 
-  void _search(String searchTerm) {
+  void search(String searchTerm) {
     setState(() {
       tiles = {};
       meridians.forEach((final String organName, final value) {
@@ -38,7 +39,7 @@ class _IzborTocakaState extends State<IzborTocaka> {
                   EdgeInsets.only(bottom: 15, left: 15, right: 15, top: 15),
               child: TextFormField(
                 decoration: InputDecoration(labelText: 'Pretraži...'),
-                onChanged: _search,
+                onChanged: search,
               ),
             ),
             // Tile list
