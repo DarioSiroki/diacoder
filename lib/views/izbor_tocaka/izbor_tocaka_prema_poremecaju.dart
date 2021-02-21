@@ -1,7 +1,7 @@
 import "package:flutter/material.dart";
 import 'lista_tocaka.dart';
 import '../tocke_za_organ/tocke_za_organ.dart';
-import "../vizualizacija_tocaka/vizualizacija_tocaka.dart";
+import '../lista_tocaka/lista_tocaka.dart';
 
 class IzborTocakaPremaPoremecaju extends StatefulWidget {
   @override
@@ -52,13 +52,13 @@ class _IzborTocakaPremaPoremecajuState
               itemCount: tilesToRender.length,
               itemBuilder: (BuildContext context, int i) {
                 return ListTile(
-                  subtitle: Text(tilesToRender[i].points),
+                  subtitle: Text(tilesToRender[i].points.replaceAll("#", "")),
                   title: Text(tilesToRender[i].name.capitalize()),
                   onTap: () {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => VizualizacijaTocaka(
+                            builder: (context) => ListaTocaka(
                                 tilesToRender[i].name.capitalize(),
                                 tilesToRender[i].points)));
                     // modal(key, tockeZaPrikaz[key]);

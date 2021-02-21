@@ -6,13 +6,23 @@ class DiacoderTable extends StatelessWidget {
   DiacoderTable(this.rows);
 
   Widget _buildColumn(String text) {
+    var pcs = text.split(",");
+
     return Column(
       children: [
-        Wrap(children: [
-          Text(text,
-              textAlign: TextAlign.center,
-              style: TextStyle(height: 2, fontSize: 18))
-        ])
+        Wrap(
+            children: List.generate(
+                pcs.length,
+                (i) => Text(
+                    pcs[i].replaceAll("#", "") +
+                        (i == pcs.length - 1 ? "" : ","),
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        height: 2,
+                        fontSize: 18,
+                        fontWeight: pcs[i].indexOf("#") > -1
+                            ? FontWeight.bold
+                            : FontWeight.normal))))
       ],
     );
   }

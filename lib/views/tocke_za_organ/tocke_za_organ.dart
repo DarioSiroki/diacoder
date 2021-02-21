@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import "../vizualizacija_tocaka/vizualizacija_tocaka.dart";
+import '../lista_tocaka/lista_tocaka.dart';
 
 extension StringExtension on String {
   String capitalize() {
@@ -33,8 +33,8 @@ class TockeZaOrgan extends StatelessWidget {
                     Navigator.push(
                         context,
                         MaterialPageRoute(
-                            builder: (context) => VizualizacijaTocaka(
-                                key.capitalize(), popis[key])));
+                            builder: (context) =>
+                                ListaTocaka(key.capitalize(), popis[key])));
                   },
                 );
               })),
