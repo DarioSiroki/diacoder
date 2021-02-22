@@ -4,7 +4,7 @@ import "../components/meridian_visualization/meridian_visualization.dart";
 
 class TockeShuIMu extends StatelessWidget {
   final rows = const [
-    ["Unutarnji organ", "Točka Shu", "Točka Mu"],
+    ["Meridijan", "Točka Shu", "Točka Mu"],
     ["pluća", "VU 13 Feishu", "P 1 Zhongfu"],
     ["perikard", "VU 14 Jueyinshu", "RM 17 Shanzhong"],
     ["srce", "VU 15 Xinshu", "RM 14 Juque"],

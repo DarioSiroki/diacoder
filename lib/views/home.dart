@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import './tocke_shu_i_mu.dart';
 import "./tocke_xi.dart";
+import "./tocke_yuan_i_luo.dart";
 import 'izbor_tocaka/izbor_tocaka_prema_organu.dart';
 import 'izbor_tocaka/izbor_tocaka_prema_poremecaju.dart';
 
@@ -41,6 +42,20 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.push(
                   context, MaterialPageRoute(builder: (context) => TockeXi()));
+            },
+          ),
+          InkWell(
+            child: Card(
+              child: ListTile(
+                trailing: Icon(Icons.navigate_next),
+                title: Text("Točke Yuan i Luo"),
+                subtitle:
+                    Text("Analitičke točke za dijagnozu bolesti 12 meridijana"),
+              ),
+            ),
+            onTap: () {
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => TockeYuanILuo()));
             },
           ),
           InkWell(
