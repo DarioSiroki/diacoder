@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import 'lista_tocaka.dart';
+import 'bolesti.dart';
 import '../tocke_za_organ/tocke_za_organ.dart';
 import '../lista_tocaka/lista_tocaka.dart';
 
