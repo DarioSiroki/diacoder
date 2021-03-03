@@ -20,5 +20,25 @@ with open(f"bolesti_prema_organima.csv") as f:
         else:
             output[key][line[1]] = line[2]
 
-with open("output.json", "w") as f:
+with open("bolesti_prema_organima.json", "w") as f:
+    f.write(json.dumps(output, indent=2, ensure_ascii=False))
+
+output = {}
+
+with open(f"povrsni_bolni_sindromi.csv") as f:
+    reader = csv.reader(f)
+    key = ''
+    for line in reader:
+        # pocni appendat u novi organ ako naletis na novi organ
+        if line[0] != '':
+            key = line[0]
+            output[key] = {
+                line[1]: [line[2], line[3], line[4]]
+            }
+        else:
+            output[key][line[1]] = [line[2], line[3], line[4]]
+
+from pprint import pprint 
+pprint(output)
+with open("povrsni_bolni_sindromi.json", "w") as f:
     f.write(json.dumps(output, indent=2, ensure_ascii=False))
