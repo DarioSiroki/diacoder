@@ -31,8 +31,10 @@ class ListaTocaka extends StatelessWidget {
       ["Meridijan", "Točke"]
     ];
     table.forEach((key, value) {
-      rows.add([meridianNames[key], value.join(",")]);
+      rows.add(
+          [meridianNames[key.substring(0, key.length - 2)], value.join(",")]);
     });
+    print(rows);
     return DiacoderTable(rows);
   }
 

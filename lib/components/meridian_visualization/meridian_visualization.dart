@@ -22,7 +22,7 @@ class MeridianImage extends StatelessWidget {
       Padding(
           padding: EdgeInsets.all(10),
           child: Text(
-            meridianNames[image.imgName],
+            meridianNames[image.imgName.substring(0, image.imgName.length - 2)],
             style: Theme.of(context).textTheme.headline6,
           )),
       InteractiveViewer(

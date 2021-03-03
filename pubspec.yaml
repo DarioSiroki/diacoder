@@ -44,24 +44,47 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - data/meridijani/crops/bubrezi_2.jpg
-    - data/meridijani/crops/debelo_crijevo.jpg
+    - data/meridijani/crops/pluca_3.jpg
+    - data/meridijani/crops/tanko_crijevo_2.jpg
+    - data/meridijani/crops/bubrezi_1.jpg
     - data/meridijani/crops/mokracni_mjehur_2.jpg
-    - data/meridijani/crops/osrcje.jpg
-    - data/meridijani/crops/slezena_i_gusteraca_2.jpg
-    - data/meridijani/crops/tanko_crijevo.jpg
-    - data/meridijani/crops/yang.jpg
-    - data/meridijani/crops/zeludac_2.jpg
-    - data/meridijani/crops/zucni_mjehur_2.jpg
-    - data/meridijani/crops/bubrezi.jpg
-    - data/meridijani/crops/jetra.jpg
-    - data/meridijani/crops/mokracni_mjehur.jpg
-    - data/meridijani/crops/pluca.jpg
-    - data/meridijani/crops/srce.jpg
-    - data/meridijani/crops/trodijelni_grijac.jpg
+    - data/meridijani/crops/bubrezi_4.jpg
+    - data/meridijani/crops/trodijelni_grijac_3.jpg
+    - data/meridijani/crops/mokracni_mjehur_3.jpg
+    - data/meridijani/crops/slezena_i_gusteraca_3.jpg
+    - data/meridijani/crops/zeludac_1.jpg
+    - data/meridijani/crops/jetra_4.jpg
+    - data/meridijani/crops/jetra_1.jpg
+    - data/meridijani/crops/jetra_3.jpg
     - data/meridijani/crops/yin.jpg
-    - data/meridijani/crops/zeludac.jpg
-    - data/meridijani/crops/zucni_mjehur.jpg
+    - data/meridijani/crops/zucni_mjehur_3.jpg
+    - data/meridijani/crops/slezena_i_gusteraca_2.jpg
+    - data/meridijani/crops/mokracni_mjehur_1.jpg
+    - data/meridijani/crops/zucni_mjehur_1.jpg
+    - data/meridijani/crops/jetra_2.jpg
+    - data/meridijani/crops/slezena_i_gusteraca_1.jpg
+    - data/meridijani/crops/zucni_mjehur_5.jpg
+    - data/meridijani/crops/tanko_crijevo_1.jpg
+    - data/meridijani/crops/zeludac_5.jpg
+    - data/meridijani/crops/slezena_i_gusteraca_4.jpg
+    - data/meridijani/crops/bubrezi_2.jpg
+    - data/meridijani/crops/bubrezi_3.jpg
+    - data/meridijani/crops/trodijelni_grijac_1.jpg
+    - data/meridijani/crops/zeludac_3.jpg
+    - data/meridijani/crops/trodijelni_grijac_2.jpg
+    - data/meridijani/crops/zucni_mjehur_4.jpg
+    - data/meridijani/crops/srce_2.png
+    - data/meridijani/crops/zeludac_6.jpg
+    - data/meridijani/crops/debelo_crijevo_1.jpg
+    - data/meridijani/crops/zeludac_4.jpg
+    - data/meridijani/crops/srce_1.jpg
+    - data/meridijani/crops/osrcje_1.jpg
+    - data/meridijani/crops/debelo_crijevo_2.jpg
+    - data/meridijani/crops/zucni_mjehur_2.jpg
+    - data/meridijani/crops/yang.jpg
+    - data/meridijani/crops/pluca_2.jpg
+    - data/meridijani/crops/pluca_1.jpg
+    - data/meridijani/crops/zeludac_2.jpg
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
