@@ -61,7 +61,6 @@ class _IzborTocakaPremaPoremecajuState
                             builder: (context) => ListaTocaka(
                                 tilesToRender[i].name.capitalize(),
                                 tilesToRender[i].points)));
-                    // modal(key, tockeZaPrikaz[key]);
                   },
                 );
               },

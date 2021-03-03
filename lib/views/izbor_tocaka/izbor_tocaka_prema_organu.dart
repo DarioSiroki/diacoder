@@ -57,7 +57,6 @@ class _IzborTocakaPremaOrganuState extends State<IzborTocakaPremaOrganu> {
                         MaterialPageRoute(
                             builder: (context) =>
                                 TockeZaOrgan(organName, tiles[organName])));
-                    // modal(key, tockeZaPrikaz[key]);
                   },
                 );
               },

@@ -15,16 +15,53 @@ class MeridianImage extends StatelessWidget {
   List<String> pointsToRender = [];
   MeridianImage(this.image, this.pointsToRender, this.renderedWidth);
 
+  Future<void> _meridianInfoDialog(
+      BuildContext context, String meridianName) async {
+    String id = meridianName.substring(0, meridianName.length - 2);
+    return showDialog<void>(
+      context: context,
+      barrierDismissible: false, // user must tap button!
+      builder: (BuildContext context) {
+        return AlertDialog(
+          title: Text(meridianNames[id]),
+          content: SingleChildScrollView(
+            child: ListBody(
+              children: <Widget>[
+                Text(descriptions[id]),
+              ],
+            ),
+          ),
+          actions: <Widget>[
+            TextButton(
+              child: Text('Zatvori'),
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+            ),
+          ],
+        );
+      },
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     double scaleFactor = image.imgw / renderedWidth;
     return Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
       Padding(
           padding: EdgeInsets.all(10),
-          child: Text(
-            meridianNames[image.imgName.substring(0, image.imgName.length - 2)],
-            style: Theme.of(context).textTheme.headline6,
-          )),
+          child: Row(children: <Widget>[
+            Text(
+              meridianNames[
+                  image.imgName.substring(0, image.imgName.length - 2)],
+              style: Theme.of(context).textTheme.headline6,
+            ),
+            IconButton(
+                icon: Icon(Icons.info),
+                onPressed: () {
+                  _meridianInfoDialog(context, image.imgName);
+                }),
+          ])),
       InteractiveViewer(
         boundaryMargin: EdgeInsets.all(0),
         child: Stack(

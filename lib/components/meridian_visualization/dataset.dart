@@ -4754,18 +4754,116 @@ const meridianNames = {
 };
 
 const descriptions = {
-  'bubrezi': 'Meridijan bubrega',
-  'debelo_crijevo': 'Meridijan debelog crijeva',
-  'jetra': 'Meridijan jetre',
-  'mokracni_mjehur': 'Meridijan mokraćnog mjehura',
-  'osrcje': 'Meridijan osrčja',
-  'pluca': 'Meridijan pluća',
-  'slezena_i_gusteraca': 'Meridijan slezene i gušterače',
-  'srce': 'Meridijan srca',
-  'tanko_crijevo': 'Meridijan tankog crijeva',
-  'trodijelni_grijac': 'Meridijan trodijelnog grijača',
+  'pluca':
+      '''	Bolesti respiratornih putova i organa: otežano disanje, opstrukcija nosa i rinoreja, kašalj, akutni i kronični bronhitis, astma, alergija, poremećaj arterijskog krvotoka, boli u grlu, prehlada, smetnje autonomnog živčanog sustava (simpatikusa i parasimpatikusa), poremećaj funkcije kože (poremećaj znojenja, poremećeno lučenje žlijezda lojnica, smetnje u rastu kose, nokata, dlaka).
+	Simptomi u tijeku meridijana: boli u prednjem dijelu ramena, boli duž prednjeg dijela nadlaktice i podlaktice, trnci i toplina u predjelu šake.
+	Psihičke smetnje: nesanica, psihička iscrpljenost, tuga, razdražljivost i tjeskoba.''',
+  'debelo_crijevo':
+      '''Glavna mu je funkcija u regulaciji organskih tekućina tijela: vrućina u tijelu, suhoća u ustima, upala usne sluznice, angina, zbobolja, boli u ušima, zatvor stolice zbog grča debelog crijeva, ili zbog antonije, proljevi, povišenje krvnog tlaka, kožne bolesti, akne, svrbež, nadimanje zbog nakupljanja zraka u crijevima, jaka osjetljivost na hladnoću, razdražljivost i preosjetljivost, potišenost, depresije, gubitak samopouzdanja, nedostatak volje.''',
+  'jetra': '''Energija jetre štiti organizam od vanjskih, agresivnih energija.
+
+Opće indikacije:
+
+- hepatalna insuficijencija
+- boli u hipohondriju desno, digestivne smetnje, mučnina, povraćanje, opstipacija, nadimanje
+- migrena, vertigo, svjetlucanje pred očima, astenija
+- poremećaji venske cirkulacije, alergija
+- artritis, senzomotorni poremećaji donjih udova''',
+  'mokracni_mjehur':
+      '''Ovo je meridijan s najvećim brojem točaka. Njegova je glavna funkcija regulacija i eliminacija vode i tijesno je povezan s bubregom. To je glavni meridijan autonomnog živčanog sustava, pa se ubadanjem igala u točke ovog meridijana najjače djeluje na vegetativni sustav, a preko njega na bol. U knjizi 'Nei Ćing' piše: 'Ako u organizmu bilo gdje postoji bol, dovoljno je ubosti iglom u točku VU 67 na malom prstu i bol će popustiti.'
+
+Na ovom meridijanu smještene su leđne Shu točke.
+	
+Opće indikacije:
+
+- kronične bolesti svih unutarnjih organa i psihosomatski poremećaji
+
+- funkcionalni poremećaji mokrenja, inkontinencija, oligurija, poliurija, dizurične tegobe
+
+- funkcionalni poremećaji iz genitalne sfere: spermatoreja, prijapizam, prostatitis, impotencija
+
+- lokalni i regionalni poremećaji duž putanje meridijana (kožno-mišićni, vaskularni i neuralni)
+
+- ORL i oftamološki poremećaji, cefaleja, konvulzije, epilepsija
+
+- funkcionalni statički poremećaji kralješnice i lokomotornog sustava
+
+- neurovegetativna distonija
+
+- psihičke smetnje: ekscitabilnost, opsesija, agitacija, pretjerana tuga''',
+  'osrcje':
+      '''Meridijan osrčja je zaštitnik srca i osrčja i glavna mu je funkcija vezana za arterijsku cirkulaciju. Energija ovog meridijana utječe na spolne žlijezde s vanjskim i unutarnjim lučenjem, pa ga zato i smatraju 'meridijanom seksualnih funkcija' (Soulie de Morant)
+
+Opće su indikacije:
+
+- sve afekcije arterijskog sustava: arterijska hipertencija, arteritis, koronarna bolest, angina pektoris, opresija, palpitacija, tahikardija, osjećaj punoće u prsnom košu
+- kontrakture mišića lakta i šake, boli duž putanje meridijana
+- pretjerani osjećaj topline dlanova, razdražljivost, nesanica zbog spolne prenadraženosti, nedostatak spolnog nagona, impotencija, sterilnost, frigidnost''',
+  'bubrezi':
+      '''Ovaj meridijan obuhvaća osim bubrežne generativnu i funkciju nadbubrežnih žlijezda. Funkcija je meridijana povezana sa svim ostalim funkcijama i organima pa nedostatak 'bubrežne esencije' uzrokuje poremećaj mnogih funkcija u organizmu. 'Bubreg čuva energiju i upravlja reprodukcijom, rastom i razvojem.' (Nei Jing) i 'Bubreg regulira životnu energiju, upravlja kretanjem vode i rastom kostiju, utječe na koštanu srž. Okrepljuje mozak.'
+
+Poremećaj energija u meridijanu očituje se bolesnim znakovima i simptomima:
+
+- sterilnošću i impotencijom, vrtoglavicom, staračkom nagluhosti
+- noćnim mokrenjem, bolovima u leđima, zglobovima i kostima
+- poremećajima dišnih funkcija, astmom
+- opstipacijom, proljevima, mišićnom slabosti, edemima
+- osjećajem pretjerane topline u tabanima
+- slabošću pamćenja, smetenosti, strahom, nesanicom''',
+  'slezena_i_gusteraca': '''Opće indikacije:
+
+- poremećaj probave, anoreksija, povraćanje, mučnina, meteorizam, proljevi, osjećaj umora poslije obroka, pospanost, gastrospazmi, enterospazmi, hepatički spazmi, žutica, boli u jeziku, afekcije u ustima, boli i osjećaj težine u epigastričnoj regiji, boli i pareze potkoljenice i natkoljenice, osjećaj težine u potkoljenicama, boli i slabost u nožnom palcu, preosjetljivost na hladnoću i vlagu, opći i lokalni cirkulatorni poremećaji, edemi, urogenitalni poremećaji, bolesti kostiju i zglobova, psihičke smetnje (hipohondrijskog tipa)''',
+  'srce': '''Opće indikacije:
+
+- Funkcionalni kardiovaskularni poremećaji: hipertenzija ili hipotenzija, palpitacija, vertigo, tahikardija-bradikardija, sklonost sinkopalnim krizama, stenokardije, pretjerani osjećaj topline ili hladnoće u čitavom tijelu, osjećaj suhoće i grebenja u grlu. Utječe na termoregulaciju. Energija srca vezana je s energijom jezika. Ima utjecaj na osjet okusa. Energija ovog meridijana utječe na psihosomatske bolesti, naročito na hipertireozu. Niboyet smatra da je ovaj meridijan odgovoran za imunološke procese.''',
+  'tanko_crijevo':
+      '''Glavna je funkcija ovog meridijana probava, asimilacija hranjivih tvari, ali i asimilacija ideja. Utječe na prehranu duha.
+
+Opće indikacije:
+
+- svi funkcionalni intestinalni poremećaji, čir na želucu i dvanaesniku, spastični enterokolitis, dispeptičke tegobe, meteorizam, bilijarna diskinezija, smanjenje ili pojačanje svih vrsta sekrecije
+
+- lokalno: boli i edemi vrata, boli u predjelu lica, tortikolis, boli u ramenu s funkcionalnom slabošću
+
+- boli i pareze duž samog meridijana
+
+- crvenilo lica, stomatitis i faringitis
+
+- sklonost psihosomatskim bolestima, apatija, astenija, agitacija''',
+  'trodijelni_grijac':
+      '''Općenita je funkcija ovog meridijana 'zagrijavanje'. On stimulira vitalne funkcije pa je odgovoran za energiju potrebnu za apsorpciju, asimilaciju i evakuaciju tvari. Neki autori misle da se preko ovog meridijana izravno utječe na simpatikus.
+
+Opće indikacije:
+
+- poremećaji termoregulacije
+- funkcionalni respiratorni, digestivni i genitourinarni poremećaji
+- funkcionalni poremećaji koji su pogoršani vlagom, hladnoćom, i padom barometarskoh tlaka, reumatizam, astma
+- boli duž putanje meridijana
+- nagluhost, zujanje u ušima, mastoiditis, otitis
+- poremećaji opće vitalnosti
+- strah, zakočenost, tuga, anksioznost, apatija, somnolencija, agitacija''',
   'ya': 'Meridijan Yang',
   'y': 'Meridijan Yin',
-  'zeludac': 'Meridijan želuca',
-  'zucni_mjehur': 'Meridijan žučnog mjehura',
+  'zeludac': '''Opće indikacije:
+
+- gastrointestinalni poremećaji: bolni grčevi u želucu, mučnina, povišena kiselina sa žgaravicom, pojačan ili smanjen apetit, neugodan zadah iz usta, suhoća u ustima, osjećaj težine u području želuca, napetost u trbuhu, aerofagija, atonična opstipacija, povraćanje
+
+- kardiovaskularni poremećaji: poremećaji koji su vezani uz prehranu, arterijska hipertenzija, zastoj u venama i arterijske afekcije donjih udova
+
+- ORL smetnje: laringitis, faringitis, sinusitis
+
+- očne afekcije: konjuktivitis
+
+- neurološki poremećaji: pareze facijalisa, neuralgije trigeminusa, poli-neuropatije, muskularne afekcije, pareze i paralize
+
+- boli duž putanje meridijana: frontalna glavobolja, zubobolja, boli u prsnom košu, boli natkoljenice, koljena i potkoljenice
+
+- psihičke tegobe: osjećaj tuge, nespokojstvo, depresija, bojažljivost, nedostatak životne radosti, mrzovoljnost, psihička i fizička iscrpljenost, opća slabost''',
+  'zucni_mjehur':
+      '''Glavna je funkcija ovog meridijana da skupa s jetrom utječe na probavu. Općenito utječe na doživljaj boli pa se ovaj meridijan i zove 'meridijan za bol'. U bolnim je sindromima energija žučnog mjehura poremećena. Taj su meridijan stari Kinezi smatrali 'meridijanom hrabrosti, odvažnosti, borbenosti i neustrašivosti'.
+
+Opće indikacije meridijana:
+
+- hepatovezikularne: biljarna diskinezija, gorak okus u ustima, povraćanje žuči, boli u desnom hipohondriju, jetrene kolike, opstipacija
+- algičke: glavobolja, migrena, cervikalgija, skapulalgija, boli u trbuhu i maloj zdjelici, boli duž putanje meridijana, bedra, koljena i stopala''',
 };
