@@ -12,29 +12,34 @@ class ListaTocaka extends StatelessWidget {
 
   Widget table() {
     Map<String, List<String>> table = {};
-    final meridianDataset =
-        meridians.map((meridian) => MeridianDetails.fromJson(meridian));
+    final meridianDataset = [];
+    meridians.forEach((meridian) {
+      meridianDataset.add(MeridianDetails.fromJson(meridian));
+    });
     var pts = this.points.split(",").map((t) => t.trim());
     pts.forEach((String pt) {
-      meridianDataset.forEach((MeridianDetails meridian) {
-        meridian.points.forEach((String point) {
+      for (var j = 0; j < meridianDataset.length; ++j) {
+        var meridian = meridianDataset[j];
+        for (var i = 0; i < meridian.points.length; ++i) {
+          var point = meridian.points[i];
           if (point == pt.replaceFirst("#", "")) {
-            if (!table.containsKey(meridian.imgName))
-              table[meridian.imgName] = [pt];
+            String id =
+                meridian.imgName.substring(0, meridian.imgName.length - 2);
+            if (!table.containsKey(id))
+              table[id] = [pt];
             else
-              table[meridian.imgName].add(pt);
+              table[id].add(pt);
+            return;
           }
-        });
-      });
+        }
+      }
     });
     final List<List<String>> rows = [
       ["Meridijan", "Točke"]
     ];
     table.forEach((key, value) {
-      rows.add(
-          [meridianNames[key.substring(0, key.length - 2)], value.join(",")]);
+      rows.add([meridianNames[key], value.join(",")]);
     });
-    print(rows);
     return DiacoderTable(rows);
   }
 
