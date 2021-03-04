@@ -117,13 +117,14 @@ class MeridianImageList extends StatelessWidget {
       this.points.add(point);
       // For each meridian from dataset
       for (var meridian in meridians) {
+        var md = MeridianDetails.fromJson(meridian);
         // For each point in meridian
         for (var point2 in meridian["points"]) {
           // If this meridian needs to be visualized and was not already picked, add it
           if (point == point2.toLowerCase() &&
-              alreadyAdded.indexOf(pointType) == -1) {
-            this.meridiansToShow.add(MeridianDetails.fromJson(meridian));
-            alreadyAdded.add(pointType);
+              alreadyAdded.indexOf(md.imgName) == -1) {
+            this.meridiansToShow.add(md);
+            alreadyAdded.add(md.imgName);
             break;
           }
         }
