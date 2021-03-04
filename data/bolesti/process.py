@@ -33,12 +33,10 @@ with open(f"povrsni_bolni_sindromi.csv") as f:
         if line[0] != '':
             key = line[0]
             output[key] = {
-                line[1]: [line[2], line[3], line[4]]
+                line[1]: f"{line[2]}{',' if line[2] else ''}{line[3]}{',' if line[4] else ''}{line[4]}"
             }
         else:
-            output[key][line[1]] = [line[2], line[3], line[4]]
+            output[key][line[1]] = f"{line[2]}{',' if line[2] else ''}{line[3]}{',' if line[4] else ''}{line[4]}"
 
-from pprint import pprint 
-pprint(output)
 with open("povrsni_bolni_sindromi.json", "w") as f:
     f.write(json.dumps(output, indent=2, ensure_ascii=False))

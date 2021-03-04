@@ -1,213 +1,49 @@
 {
   "Glava": {
-    "glavobolja": [
-      "TR 5, VU 62, P 7",
-      "G 1, G 2, G 3, G 4, G 5, G 6, G 9, VF 1, #VF 4, VF 5, VF 6, VF 7, VF 8, VF 10, VF 12, VF 13, VF 14, VF 17, VF 19, #VF 20, DM 15, #DM 20, TR 18, TR 21, TR 22, #PE 1, #PE 2",
-      "RM 4, RM 12, DM 4, DM 14, #P 7, P 10, #IC 4, IC 5, IC 10, IC 14, C 3, C 5, C 6, #Pc 6, Pc 7, TR 1, TR 2, TR 3, #TR 5, TR 12. IT 1, #IT 3, IT 4, IT 7, IT 9, G 32, G 36, #G 40, G 41, G 44, VU 60, #VU 62, VU 65, VU 66, VU 67, LP 6"
-    ],
-    "neuralgija trigeminusa (frontalna grana)": [
-      "IT 3",
-      "G 8, G 7, VU 4, DM 22, VF 9, VF 10, VF 11, VF 14, #VF 20, TR 17, TR 21, #PE 2, PE 3",
-      "TR 1, VF 34, VF 44, G 40, G 45, VU 67"
-    ],
-    "neuralgija trigeminusa (maksilarna grana)": [
-      "P 7",
-      "IC 20, G 2, G 3, G 5, G 6, IT 18, VF 1, DM 26, TR 17",
-      "IC 1, #IC 4, IT 1, VF 44, G 44"
-    ],
-    "neuralgija trigeminusa (mandibularna grana)": [
-      "P 7",
-      "G 5, G 6, G 7, VF 2, TR 17, RM 24",
-      "G 44, IT 1, TR 1, VF 44"
-    ],
-    "bol sljepoočnice": [
-      "",
-      "G 8, TR 21, VF 1, VF 4, VF 5, VF 6, VF 7",
-      "TR 1, G 45, VF 44"
-    ],
-    "okcipitalna neuralgija": [
-      "IT 3",
-      "VU 9, #VU 10, TR 16, TR 18, DM 15, DM 18, VF 16, VF 17, VF 18, VF 19 #VF 20",
-      "IT 8, IT 13, IC 10, TR 1, #VU 40, VU 67, VF 44, DM 14, DM 19"
-    ],
-    "nos i sinusitis": [
-      "P 7, TR 5",
-      "IC 19, #IC 20, #G 2, G 3, VU 2, VU 3, VU 4, VU 6, PE 1, #DM 22",
-      "G 45, 14 VF 20 IC 2, 3 IC 4, 11 Pc 8 VU 64, 67"
-    ],
-    "okularna neuralgija": [
-      "IT 3",
-      "G 1, #G 2, #VU 1, VF 7, VF 10, TR 21",
-      "#VF 20, #VU 18, IC 4, IC 11, #IT 6, TR 5, #G 36, VF 44"
-    ],
-    "otalgija": [
-      "TR 5",
-      "G 6, G 7, IT 17, It 19, TR 22, #TR 23, VF 2, VF 17, #VF 20",
-      "VF 21, IT 14, It 15, #VU 23, IC 4, IC 11, TR 7, G 36"
-    ],
-    "odontalgija": [
-      "TR 5",
-      "VF 2, IT 18",
-      "#IC 1, #IC 4, IC 2, IC 3, IC 5, IC 6, IC 11, IT 3, IT 8, TR 3, TR 23, #P 11, P 7, VF 15, VF 16, VF 44, G 44"
-    ],
-    "cervikalgija": [
-      "IT 3, TR 5",
-      "#VU 10, VU 11, DM 14, DM 15, DM 20, IT 16, #VF 20, IC 16",
-      "IT 6, IT 7, #DM 26, #PE 26, VU 67"
-    ]
+    "glavobolja": "TR 5, VU 62, P 7,G 1, G 2, G 3, G 4, G 5, G 6, G 9, VF 1, #VF 4, VF 5, VF 6, VF 7, VF 8, VF 10, VF 12, VF 13, VF 14, VF 17, VF 19, #VF 20, DM 15, #DM 20, TR 18, TR 21, TR 22, #PE 1, #PE 2,RM 4, RM 12, DM 4, DM 14, #P 7, P 10, #IC 4, IC 5, IC 10, IC 14, C 3, C 5, C 6, #Pc 6, Pc 7, TR 1, TR 2, TR 3, #TR 5, TR 12. IT 1, #IT 3, IT 4, IT 7, IT 9, G 32, G 36, #G 40, G 41, G 44, VU 60, #VU 62, VU 65, VU 66, VU 67, LP 6",
+    "neuralgija trigeminusa (frontalna grana)": "IT 3,G 8, G 7, VU 4, DM 22, VF 9, VF 10, VF 11, VF 14, #VF 20, TR 17, TR 21, #PE 2, PE 3,TR 1, VF 34, VF 44, G 40, G 45, VU 67",
+    "neuralgija trigeminusa (maksilarna grana)": "P 7,IC 20, G 2, G 3, G 5, G 6, IT 18, VF 1, DM 26, TR 17,IC 1, #IC 4, IT 1, VF 44, G 44",
+    "neuralgija trigeminusa (mandibularna grana)": "P 7,G 5, G 6, G 7, VF 2, TR 17, RM 24,G 44, IT 1, TR 1, VF 44",
+    "bol sljepoočnice": "G 8, TR 21, VF 1, VF 4, VF 5, VF 6, VF 7,TR 1, G 45, VF 44",
+    "okcipitalna neuralgija": "IT 3,VU 9, #VU 10, TR 16, TR 18, DM 15, DM 18, VF 16, VF 17, VF 18, VF 19 #VF 20,IT 8, IT 13, IC 10, TR 1, #VU 40, VU 67, VF 44, DM 14, DM 19",
+    "nos i sinusitis": "P 7, TR 5,IC 19, #IC 20, #G 2, G 3, VU 2, VU 3, VU 4, VU 6, PE 1, #DM 22,G 45, 14 VF 20 IC 2, 3 IC 4, 11 Pc 8 VU 64, 67",
+    "okularna neuralgija": "IT 3,G 1, #G 2, #VU 1, VF 7, VF 10, TR 21,#VF 20, #VU 18, IC 4, IC 11, #IT 6, TR 5, #G 36, VF 44",
+    "otalgija": "TR 5,G 6, G 7, IT 17, It 19, TR 22, #TR 23, VF 2, VF 17, #VF 20,VF 21, IT 14, It 15, #VU 23, IC 4, IC 11, TR 7, G 36",
+    "odontalgija": "TR 5,VF 2, IT 18,#IC 1, #IC 4, IC 2, IC 3, IC 5, IC 6, IC 11, IT 3, IT 8, TR 3, TR 23, #P 11, P 7, VF 15, VF 16, VF 44, G 44",
+    "cervikalgija": "IT 3, TR 5,#VU 10, VU 11, DM 14, DM 15, DM 20, IT 16, #VF 20, IC 16,IT 6, IT 7, #DM 26, #PE 26, VU 67"
   },
   "Kralježnica i prsni koš": {
-    "dorzalgija": [
-      "IT 3",
-      "VU 11, VU 12, VU 13, VU 14, VU 15, VU 16, VU 17, VU 18, VU 19, VU 20, DM 6, DM 7, DM 8, DM 9, DM 10, DM 11, DM 12, DM 13, DM 14",
-      "#VU 40, TR 3, DM 26"
-    ],
-    "lumbalgija": [
-      "VF 41, VU 62, LP 4, IT 3",
-      "VU 23, VU 25, VU 27, VU 54, #PE 21",
-      "#VU 40, VU 65, #VF 30, DM 26, IT 6, G 36"
-    ],
-    "sakralgija": [
-      "",
-      "VU 28, VU 29, VU 30, VU 31, VU 32, VU 33, VU 34 ,DM 2",
-      "#VU 40, VU 60, VF 40"
-    ],
-    "kokcigodinija": [
-      "",
-      "VU 35, DM 1, DM 2",
-      "VF 34, #VU 40"
-    ],
-    "sakroilijakalna bol": [
-      "",
-      "VU 26, VU 27",
-      "VU 40, VF 41"
-    ],
-    "skapularna bol": [
-      "IT 3",
-      "IT 9, IT 10, IT 11, IT 12, IT 13, TR 14, #IC 15, IC 16, #IC 11",
-      "IT 1, IT 8, TR 10"
-    ],
-    "pektoralna neuralgija": [
-      "LP 4",
-      "P 1, P 2, G 13, G 14, G 15, G 16, LP 18, LP 19, LP 20, Pc 1, RM 18",
-      "P 7, #P 9, C 8, C 5, Pc 6, Pc 5, VF 34, G 36"
-    ],
-    "interkostalna neuralgija": [
-      "",
-      "VU 11, R 27, VU 12, R 26, VU 13, R 25, VU 14, R 24, VU 15, R 23, VU 17, H 14",
-      "VF 34, #P 11, R 7, LP 6, H 2, H 5, TR 5, TR 6, #VU 40"
-    ],
-    "bolovi trbušnih mišića – trbušne stijenke": [
-      "LP 4",
-      "G 18, G 19, G 20, G 21, G 22, G 23, G 24, G 25, G 26, G 27, G 28, G 29, G 30, LP 13, LP 14, LP 15, LP 16, R 12, R 13, R 14, R 15, R 16, R 17, R 18, R 19, R 20, R 21, RM 2, RM 3, RM 4, RM 5, RM 7, RM 8, RM 9, RM 10, RM 11, RM 12, RM 13, RM 14, RM 15",
-      "G 36, LP 6, LP 7, LP 8, LP 9, LP 10, H 8"
-    ],
-    "gornji udovi cervikobrahijalna neuralgija": [
-      "IT 3, G 38",
-      "VU 10, VU 11, #IC 15, IC 16, #IC 11, IC 10, IT 12, IT 13, IT 14, IT 15, #TR 14",
-      "#IC 4, #TR 5"
-    ],
-    "skapulohumeralna neuralgija": [
-      "VF 41, G 38",
-      "#IC 15, #IC 16, IT 12, #TR 14",
-      "IC 1, #IC 11, IT 8, G 38, TR 10, P 5, VU 62, R 4"
-    ],
-    "aksilarna neuralgija": [
-      "",
-      "IT 9, TR 12",
-      "C 1, #IC 15, IC 4, LP 4"
-    ],
-    "radijalna neuralgija": [
-      "TR 5",
-      "IC 4, IC 5, IC 7, IC 8, IC 9, #IC 10, #IC 11, IT 11, TR 5, TR 6, TR 9, TR 10, #P 7, P 9",
-      "IC 14, IC 15, TR 11, TR 12, TR 13"
-    ],
-    "neuralgija medijanusa": [
-      "TR 5",
-      "P 6, C 3, MC 4, MC 5, MC 6, MC 7",
-      "P 3, P 4, Pc 2"
-    ],
-    "neuralgija ulnarisa": [
-      "TR 5",
-      "C 3, C 4, C 5, C 6, C 7, #IT 8, #IT 3",
-      "Pc 2"
-    ],
-    "bol lakta": [
-      "TR 5",
-      "#PC 5, #PC 3, #IC 11, IC 10, C 3, IT 8",
-      "C 9, VF 34, G 38"
-    ],
-    "bol radiokarpalnog zgloba": [
-      "PC 7",
-      "P 9, IC 5, C 7, Pc 7, TR 4, IT 4",
-      "IC 11, G 44"
-    ],
-    "bol prstiju i šake": [
-      "TR 5",
-      "TR 3, P 10, Pc 8, IC 4",
-      ""
-    ]
+    "dorzalgija": "IT 3,VU 11, VU 12, VU 13, VU 14, VU 15, VU 16, VU 17, VU 18, VU 19, VU 20, DM 6, DM 7, DM 8, DM 9, DM 10, DM 11, DM 12, DM 13, DM 14,#VU 40, TR 3, DM 26",
+    "lumbalgija": "VF 41, VU 62, LP 4, IT 3,VU 23, VU 25, VU 27, VU 54, #PE 21,#VU 40, VU 65, #VF 30, DM 26, IT 6, G 36",
+    "sakralgija": "VU 28, VU 29, VU 30, VU 31, VU 32, VU 33, VU 34 ,DM 2,#VU 40, VU 60, VF 40",
+    "kokcigodinija": "VU 35, DM 1, DM 2,VF 34, #VU 40",
+    "sakroilijakalna bol": "VU 26, VU 27,VU 40, VF 41",
+    "skapularna bol": "IT 3,IT 9, IT 10, IT 11, IT 12, IT 13, TR 14, #IC 15, IC 16, #IC 11,IT 1, IT 8, TR 10",
+    "pektoralna neuralgija": "LP 4,P 1, P 2, G 13, G 14, G 15, G 16, LP 18, LP 19, LP 20, Pc 1, RM 18,P 7, #P 9, C 8, C 5, Pc 6, Pc 5, VF 34, G 36",
+    "interkostalna neuralgija": "VU 11, R 27, VU 12, R 26, VU 13, R 25, VU 14, R 24, VU 15, R 23, VU 17, H 14,VF 34, #P 11, R 7, LP 6, H 2, H 5, TR 5, TR 6, #VU 40",
+    "bolovi trbušnih mišića – trbušne stijenke": "LP 4,G 18, G 19, G 20, G 21, G 22, G 23, G 24, G 25, G 26, G 27, G 28, G 29, G 30, LP 13, LP 14, LP 15, LP 16, R 12, R 13, R 14, R 15, R 16, R 17, R 18, R 19, R 20, R 21, RM 2, RM 3, RM 4, RM 5, RM 7, RM 8, RM 9, RM 10, RM 11, RM 12, RM 13, RM 14, RM 15,G 36, LP 6, LP 7, LP 8, LP 9, LP 10, H 8",
+    "gornji udovi cervikobrahijalna neuralgija": "IT 3, G 38,VU 10, VU 11, #IC 15, IC 16, #IC 11, IC 10, IT 12, IT 13, IT 14, IT 15, #TR 14,#IC 4, #TR 5",
+    "skapulohumeralna neuralgija": "VF 41, G 38,#IC 15, #IC 16, IT 12, #TR 14,IC 1, #IC 11, IT 8, G 38, TR 10, P 5, VU 62, R 4",
+    "aksilarna neuralgija": "IT 9, TR 12,C 1, #IC 15, IC 4, LP 4",
+    "radijalna neuralgija": "TR 5,IC 4, IC 5, IC 7, IC 8, IC 9, #IC 10, #IC 11, IT 11, TR 5, TR 6, TR 9, TR 10, #P 7, P 9,IC 14, IC 15, TR 11, TR 12, TR 13",
+    "neuralgija medijanusa": "TR 5,P 6, C 3, MC 4, MC 5, MC 6, MC 7,P 3, P 4, Pc 2",
+    "neuralgija ulnarisa": "TR 5,C 3, C 4, C 5, C 6, C 7, #IT 8, #IT 3,Pc 2",
+    "bol lakta": "TR 5,#PC 5, #PC 3, #IC 11, IC 10, C 3, IT 8,C 9, VF 34, G 38",
+    "bol radiokarpalnog zgloba": "PC 7,P 9, IC 5, C 7, Pc 7, TR 4, IT 4,IC 11, G 44",
+    "bol prstiju i šake": "TR 5,TR 3, P 10, Pc 8, IC 4"
   },
   "Donji udovi": {
-    "neuralgična bol unutarnje strane natkoljenice (n. Obturatorius)": [
-      "",
-      "LP 9, LP 10, LP 11, LP 12, R 10, H 9, H 10, H 11",
-      "#H 8, VU 31, VU 32, VU 33, VU 34, DM 4, LP 3"
-    ],
-    "neuralgična bol vanjske strane natkoljenice (n. cutaneus fem. lat.)": [
-      "VF 41",
-      "G 31, G 32, G 33, G 34, #VF 31, #VF 30",
-      "VU 60"
-    ],
-    "neuralgična bol stražnje strane natkoljenice (n. Ishiadicus)": [
-      "VU 62",
-      "#VF 30, #VU 54, VU 36, VU 37, #VU 40",
-      "VU 23, VU 25, VU 27, VU 31, VU 32, VU 33, VU 34, #VU 60, VU 66, VU 67, DM 4, H 2"
-    ],
-    "neuralgična bol unutarnje strane potkoljenice": [
-      "",
-      "LP 6, LP 7, LP 8, LP 9, H 5, H 6, H 7, #H 8, R 7, R 8, R 9, R 10",
-      "VU 23, VU 27, VU 31, VU 32, VU 33, VU 34, DM 4, H 2"
-    ],
-    "neuralgična bol prednje i vanjske strane potkoljenice": [
-      "VF 41",
-      "#G 36, G 37, G 38, G 39, G 40, G 41, G 42, G 43, #VF 34, VF 35, VF 36, VF 37, VF 38, VF 39, VF 40",
-      "VU 60, VU 62, VU 67, H 2, H 3"
-    ],
-    "bol koksofemoralnog zgloba": [
-      "VU 62 VF 41",
-      "VF 29, VF 30",
-      "VU 60, VU 62, #VU 40, VF 34, R 3"
-    ],
-    "bol koljena": [
-      "VF 41",
-      "G 34, G 35, G 36, #VU 40, LP 9, LP 10, R 10, VF 33, #VF 34, #H 8, PE 31, PE 32",
-      "G 45, VU 60"
-    ],
-    "bol skočnog zgloba": [
-      "VU 62 TR 5",
-      "VU 61, #VF 41, VF 43, R 4, R 5",
-      "G 43, H 3, H 2"
-    ],
-    "bol unutarnjeg maleola": [
-      "",
-      "TR 5, R 3, R 6, H 4",
-      ""
-    ],
-    "bol vanjskog maleola": [
-      "VF 41",
-      "VU 60, VU 62, VF 40",
-      ""
-    ],
-    "boli metatarzalnih zglobova": [
-      "VF 41",
-      "G 41, LP 5, VU 63, R 2",
-      ""
-    ],
-    "boli nožnih prstiju": [
-      "LP 4",
-      "H 2, LP 2, LP 3, R 1, G 44, VF 43, PE 36",
-      ""
-    ]
+    "neuralgična bol unutarnje strane natkoljenice (n. Obturatorius)": "LP 9, LP 10, LP 11, LP 12, R 10, H 9, H 10, H 11,#H 8, VU 31, VU 32, VU 33, VU 34, DM 4, LP 3",
+    "neuralgična bol vanjske strane natkoljenice (n. cutaneus fem. lat.)": "VF 41,G 31, G 32, G 33, G 34, #VF 31, #VF 30,VU 60",
+    "neuralgična bol stražnje strane natkoljenice (n. Ishiadicus)": "VU 62,#VF 30, #VU 54, VU 36, VU 37, #VU 40,VU 23, VU 25, VU 27, VU 31, VU 32, VU 33, VU 34, #VU 60, VU 66, VU 67, DM 4, H 2",
+    "neuralgična bol unutarnje strane potkoljenice": "LP 6, LP 7, LP 8, LP 9, H 5, H 6, H 7, #H 8, R 7, R 8, R 9, R 10,VU 23, VU 27, VU 31, VU 32, VU 33, VU 34, DM 4, H 2",
+    "neuralgična bol prednje i vanjske strane potkoljenice": "VF 41,#G 36, G 37, G 38, G 39, G 40, G 41, G 42, G 43, #VF 34, VF 35, VF 36, VF 37, VF 38, VF 39, VF 40,VU 60, VU 62, VU 67, H 2, H 3",
+    "bol koksofemoralnog zgloba": "VU 62 VF 41,VF 29, VF 30,VU 60, VU 62, #VU 40, VF 34, R 3",
+    "bol koljena": "VF 41,G 34, G 35, G 36, #VU 40, LP 9, LP 10, R 10, VF 33, #VF 34, #H 8, PE 31, PE 32,G 45, VU 60",
+    "bol skočnog zgloba": "VU 62 TR 5,VU 61, #VF 41, VF 43, R 4, R 5,G 43, H 3, H 2",
+    "bol unutarnjeg maleola": "TR 5, R 3, R 6, H 4",
+    "bol vanjskog maleola": "VF 41,VU 60, VU 62, VF 40",
+    "boli metatarzalnih zglobova": "VF 41,G 41, LP 5, VU 63, R 2",
+    "boli nožnih prstiju": "LP 4,H 2, LP 2, LP 3, R 1, G 44, VF 43, PE 36"
   }
 }
