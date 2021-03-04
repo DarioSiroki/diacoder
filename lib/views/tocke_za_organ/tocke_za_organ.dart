@@ -16,6 +16,14 @@ class TockeZaOrgan extends StatelessWidget {
 
   TockeZaOrgan(this.title, this.popis);
 
+  String _formatSubtitle(String text) {
+    var pcs = text.split(",");
+    if (pcs.length > 8) {
+      return pcs.getRange(0, 8).join(",") + "...";
+    }
+    return text;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -27,7 +35,8 @@ class TockeZaOrgan extends StatelessWidget {
               itemBuilder: (BuildContext context, int index) {
                 String key = popis.keys.elementAt(index);
                 return ListTile(
-                  subtitle: Text(popis[key].replaceAll("#", "")),
+                  subtitle:
+                      Text(_formatSubtitle(popis[key].replaceAll("#", ""))),
                   title: Text(key.capitalize()),
                   onTap: () {
                     Navigator.push(
